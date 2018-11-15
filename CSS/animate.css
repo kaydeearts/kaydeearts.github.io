@@ -1,0 +1,10 @@
+@keyframes planetEven {
+    50% {
+        transform: rotate(20deg);
+    }
+}
+@keyframes planetOdd {
+    50% {
+        transform: rotate(-20deg);
+    }
+}
