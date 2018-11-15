@@ -17,7 +17,7 @@ html {
 
 #introName {
     font-size: 3rem;
-    color: white;
+    color: midnightblue;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     position: relative;
@@ -26,10 +26,10 @@ html {
 
 #introMajor {
     font-size: 1.3rem;
-    color: white;
+    color: midnightblue;
     text-align: center;
     position: relative;
-    top: 65%;
+    top: 58%;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -37,7 +37,7 @@ html {
 
 #subheading {
     font-size: 1.3rem;
-    color: white;
+    color: midnightblue;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     position: relative;
@@ -47,7 +47,7 @@ html {
 #subheadingWorks {
     font-size: 1.2rem;
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: midnightblue;
     text-align: center;
     position: relative;
     top: 3%;
@@ -56,7 +56,7 @@ html {
 #noteWorks{
     font-size: .8rem;
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: midnightblue;
     text-align: center;
     position: relative;
 }
@@ -66,7 +66,7 @@ html {
 .workTitle {
     font-size: 1.1rem;
     font-family: 'Roboto Condensed', sans-serif;
-    color: white;
+    color: midnightblue;
     text-align: left;
     position: relative;
     left: 10%;

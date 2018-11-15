@@ -21,7 +21,7 @@ function initPicSlider() {
     //        dots: true,
     //    });
     $('.autoplay').slick({
-        dots: true,
+        dots: false,
         infinite: false,
         autoplay: false,
         autoplaySpeed: 2000,
