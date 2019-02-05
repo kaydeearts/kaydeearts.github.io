@@ -371,6 +371,10 @@ html {
     position: relative;
 }
 
+#FUAModal{
+    background-color: #e7dfcd;
+}
+
 #SoliloQuack {
     width: 95%;
     margin-top: 10%;
@@ -558,8 +562,8 @@ html {
 }
 
 .modalImage2 {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 20%;
 }
 
 .modalImage3 {
