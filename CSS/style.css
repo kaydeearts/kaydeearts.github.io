@@ -379,7 +379,7 @@ html {
 #CEAS {
     width: 95%;
     align-content: center;
-    margin-top: 40%;
+    margin-top: 50%;
     /*    margin-right: 10%;*/
 }
 
@@ -589,7 +589,7 @@ html {
 
 }
 
-.SBUHacksImage {
+.ModalImage {
     width: 70%;
     margin-left: 15%;
 
