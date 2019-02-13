@@ -10,99 +10,98 @@
     <!--    <link rel="stylesheet" type="text/css" href="Slick/slick/slick-theme.css" />-->
     <script src="/path/to/parallax.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
+    
     <div id=menu class="sticky">
         <div class="vertical-menu">
             <a href="index.html">
             <img src="Media/KayDeeArtsNewLogo.svg" width="60" height="60" alt="" />
             </a>
-            <a href="#home" active>Home</a>
+<!--                        <a href="#splashInformation" active>Home</a>-->
 
             <div id="transition-hover">
-                <a href="#works">Works</a>
+                <a href="#works3">Works</a>
             </div>
-            <a href="#experience">Experience</a>
-
-            <!--            <a href="#about">Blog</a>-->
+            <a href="#experienceInformation">Experience</a>
+<!--            <a href="#about">About</a>-->
         </div>
     </div>
+
 
     <div id="home" class="Section">
         <div class="parallax-window" data-parallax="scroll" img src="Media/New/SVG/back1.svg"></div>
         <!--        <div class="Monitor" id="Monitor1"><img src="Media/frame2.svg"></div>-->
         <div id="splashInformation">
-            <p id="introName">Kamile Demir</p>
-            <p id="introMajor">Computer Science | Digital Art | Animation </p>
+            <p id="introName" class="first">Kamile Demir</p>
+            <p id="introMajor" class="second">Computer Science | Digital Art | Animation </p>
+            <p id="introSlogan" class="second">Inspiring technology with art. </p>
         </div>
-    </div>
+        <div>
+            <p id="technicalProjectsSub" class="second"> Digital Art Projects</p>
+        </div>
+        <div>
+            <p id="digitalArtProjectsSub">Technical Projects</p>
+        </div>
+        <div id="works3" class="box">
+            <div id="workMargin">
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Media/Mythmedia/SVG/logoBlack.svg" class="workImage" id="mythonancial" href="#MYTHONANCIAL"></a>
+                    <!--                    <p id="imgDesc"> Mythonancial</p>-->
+                    <!--                    <div class="caption">Ocean Panorama</div>-->
+                </div>
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Media/SVG/SOLILOQUACK.svg" class="workImage" id="soliloquack" href="https://devpost.com/software/soliloquack#updates"></a>
+                    <!--                    <p id="imgDesc"> Soliloquack</p>-->
+                </div>
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Modal_Pics/d3.png" class="workImage" id="d3" href="#BLINDRUN"></a>
+                    <!--                    <p id="imgDesc"> D3.JS Data Board on NYC Trees & NYC Air Quality</p>-->
+                </div>
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Modal_Pics/witch.png" class="workImage" id="blindrun"></a>
+                    <!--                    <p id="imgDesc"> RenPy</p>-->
+                </div>
+            </div>
 
-    <div id="works" class="Section">
-        <div class="Monitor" id="Monitor1"><img src="Media/frame3.svg"></div>
-        <div id="worksInformation">
-            <p id="subheadingWorks">Works</p>
-            <p id="noteWorks">Click to View Details</p>
+        </div>
+
+        <div id="designBox" class="box">
+            <div id="workMargin">
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Media/Slide/SBUHacks.svg" class="workImage" id="sbuhacks" href="#SBUHACKS"></a>
+                </div>
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Modal_Pics/SVG/Caterina.svg" class="workImage" id="fua" href="#FUA"></a>
+                    <!--                    <p id="imgDesc"> Italy Graphic Design Internship </p>-->
+                </div>
+                <div id="workDisplay">
+                    <a class="modal-button">
+                     <img src="Media/SVG/CEASLogo.svg" class="workImage" id="ceas" href="#CEASWORK"></a>
+                    <!--                    <p id="imgDesc"> Designer Work for College of Engineering and Applied Sciences</p>-->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="artWorks">
+             <p id="subheading">Traditional Art & Theater</p>
             <div class="autoplay">
-
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Media/Slide/SBUHacks.svg" id="SBUHacks" class="images" href="#SBUHACKS">
-                    <div class="middle">
-                        <div class="caption">SBUHacks 2018</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Modal_Pics/SVG/Caterina.svg" id="Fua" class="images" href="#FUA">
-                    <div class="middle">
-                        <div class="caption">Italy Graphic Design Internship</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Media/SVG/CEASLogo.svg" id="CEAS" class="images" href="#CEASWORK">
-                    <div class="middle">
-                        <div class="caption">Designer Work for College of Engineering and Applied Sciences</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Media/Mythmedia/SVG/logoBlack.svg" id="Mythonancial" class="images" href="#MYTHONANCIAL">
-                    <div class="middle">
-                        <div class="caption">Mythonancial</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                        <a href="https://devpost.com/software/soliloquack#updates"><img src="Media/SVG/SOLILOQUACK.svg" id="SoliloQuack"></a>
-                    <div class="middle">
-                        <div class="caption">SoliloQuack</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Modal_Pics/witch.png" id="blindRun" class="images" href="#BLINDRUN">
-                    <div class="middle">
-                        <div class="caption">Blind Run</div>
-                    </div>
-                    </a>
-                </div>
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
                 <div class="container">
                     <a class="modal-button">
                     <img src="Media/DEH.jpg" id="DEH" class="images" href="#deh">
@@ -178,24 +177,142 @@
                     </a>
                 </div>
 
-                <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-                <div class="container">
-                    <a class="modal-button">
-                    <img src="Modal_Pics/d3.png" id="d3" class="images" > 
-<!--                        href="#D3"-->
-                    <div class="middle"> 
-                        <div class="caption">D3.JS</div>
-                    </div>
-                    </a>
-                </div>
+
 
                 <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
             </div>
+
+            <!--
+            <div>
+                <a class="modal-button">
+                     <img src="Media/DEH.jpg" class="artpiece" id="DEH" href="#deh"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/astro.jpg" class="artpiece" id="astro" href="#Astro"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/mountains.jpg" class="artpiece" id="mountains" href="#Mountains"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/abs1.jpg" class="artpiece" id="eureka" href="#EUREKA"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/oceanFull.jpg" class="artpiece" id="oceanFull" href="#Ocean"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/SOAPS.png"  class="artpiece" id="soaps" href="#soaps"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/mush2.jpg" class="artpiece" id="mush" href="#MUSH"></a>
+            </div>
+            <div>
+                <a class="modal-button">
+                     <img src="Media/pinksunsetPMain.jpg"  class="artpiece" id="pinkSunset" href="#SUNSET"></a>
+            </div>
+-->
+
         </div>
+
+
+        
+        <div>
+            <div id="experienceInformation">
+                <p id="subheading">Experience</p>
+
+
+                <div id="Designer/Photographer" class="job">
+                    <p class="workTitle">Designer/Photographer | CEAS Dean's Office</p>
+                    <div class="workDescription">
+                        <li>Working for the Communications Department for College of Engineering and Applied Sciences at Stony Brook University</li>
+                        <li>Taking photography at various professional events, designing promotional flyers and assets, creating video content </li>
+                    </div>
+                </div>
+
+                <div id="SBUHacksOrganizer" class="job">
+                    <p class="workTitle">Co-Head Organizer | SBUHacks 2018 </p>
+                    <div class="workDescription">
+                        <li>Head organized Stony Brook University’s first ever hackathon</li>
+                        <li>Designed logos, promotional content, merchandise & all assets</li>
+                        <li>Communicated with company representatives, attendees, volunteers, etc</li>
+                        <li>Created and managed hackathon activities, workshops, etc.</li>
+                    </div>
+                </div>
+
+                <div id="Consultant" class="job">
+                    <p class="workTitle">Consultant | Concentric Solutions</p>
+                    <div class="workDescription">
+                        <li>Intern for startup at Concentric Solutions. Involves front-end and back-end website design, working with IBM's Watson API, and data visualization. </li>
+                        <li> IBM Watson API, HTML, CSS, JS, React.JS, SQL</li>
+                    </div>
+                </div>
+
+                <div id="SBCS" class="job">
+                    <p class="workTitle">Secretary | Stony Brook Computing Society</p>
+                    <div class="workDescription">
+                        <li>In charge of weekly newsletters, sent to 1K+ people weekly </li>
+                        <li>Writing minutes during meetings Organizing CS related events & workshops </li>
+                        <li>Communicating with company representatives, members, and Stony Brook organizations/departments </li>
+                        <li>Handling emails, social media
+                        </li>
+                        <li>A-Frame VR, HTML, CSS, JS </li>
+                    </div>
+                </div>
+
+                <div id="VRDeveloper" class="job">
+                    <p class="workTitle">VR Developer | Teaching Learning Lab</p>
+                    <div class="workDescription">
+                        <li>Working as a VR developer at the Teaching Learning Lab at Stony Brook University. Responsibilities include improving educational VR games such as Towers of Hanoi and Tarski's Truth Game with the use of A-Frame, a VR framework. </li>
+                        <li>A-Frame VR, HTML, CSS, JS </li>
+                    </div>
+                </div>
+                <div id="TAC" class="job">
+                    <p class="workTitle">Teen Advisory Council | ArtsConnection</p>
+                    <div class="workDescription">
+                        <p>Worked to promote teen arts events and programs for non-profit ArtsConnection. Involved social media takeover, creating workshop and activities, promoting in schools, as well as organizing large events before and on event day</p>
+                        <li> Marketing, Leadership, Idea Management, Event Organization</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
 
-    <!--------------------------------------MODALS---------------------------------->x
+    <!--
+    <div id="worksNew" class="Section">
+        <div id="workDisplay"> <img src="Media/Slide/SBUHacks.svg" id="workImage">
+            <p id="imgDesc"> SBUHacks 2018 Official Visual Asset Catalog </p>
+        </div>
+
+
+        <div id="workDisplay"> <img src="Media/SVG/SOLILOQUACK.svg" id="workImage">
+            <p id="imgDesc"> SBUHacks 2018 Official Visual Asset Catalog </p>
+        </div>
+
+
+
+    </div>
+-->
+
+
+
+
+
+
+
+
+
+    <!--------------------------------------MODALS---------------------------------->
 
     <div id="Astro" class="modal">
         <div class="modal-content">
@@ -254,7 +371,7 @@
         </div>
     </div>
 
-    <div id="soaps" class="modal">
+    <div id="SOAPS" class="modal">
         <div class="modal-content">
             <span class="close">×</span>
             <div class="modal-body">
@@ -303,7 +420,7 @@
         </div>
     </div>
 
-    <div id="MUSH" class="modal">
+    <div class="modal">
         <div class="modal-content">
             <span class="close">×</span>
             <div class="modal-body">
@@ -349,66 +466,11 @@
 
     <!----------------------------------------------------------------------------------->
 
-    <section id="experience">
-        <div class="Monitor" id="Monitor1"><img src="Media/frame3.svg"></div>
-        <div id="experienceInformation">
-            <p id="subheading">Experience</p>
-
-
-            <div id="Designer/Photographer" class="job">
-                <p class="workTitle">Designer/Photographer | CEAS Dean's Office</p>
-                <div class="workDescription">
-                    <li>Working for the Communications Department for College of Engineering and Applied Sciences at Stony Brook University</li>
-                    <li>Taking photography at various professional events, designing promotional flyers and assets, creating video content </li>
-                </div>
-            </div>
-
-            <div id="SBUHacksOrganizer" class="job">
-                <p class="workTitle">Co-Head Organizer | SBUHacks 2018 </p>
-                <div class="workDescription">
-                    <li>Head organized Stony Brook University’s first ever hackathon</li>
-                    <li>Designed logos, promotional content, merchandise & all assets</li>
-                    <li>Communicated with company representatives, attendees, volunteers, etc</li>
-                    <li>Created and managed hackathon activities, workshops, etc.</li>
-                </div>
-            </div>
-
-            <div id="Consultant" class="job">
-                <p class="workTitle">Consultant | Concentric Solutions</p>
-                <div class="workDescription">
-                    <li>Intern for startup at Concentric Solutions. Involves front-end and back-end website design, working with IBM's Watson API, and data visualization. </li>
-                    <li> IBM Watson API, HTML, CSS, JS, React.JS, SQL</li>
-                </div>
-            </div>
-
-            <div id="SBCS" class="job">
-                <p class="workTitle">Secretary | Stony Brook Computing Society</p>
-                <div class="workDescription">
-                    <li>In charge of weekly newsletters, sent to 1K+ people weekly </li>
-                    <li>Writing minutes during meetings Organizing CS related events & workshops </li>
-                    <li>Communicating with company representatives, members, and Stony Brook organizations/departments </li>
-                    <li>Handling emails, social media
-                    </li>
-                    <li>A-Frame VR, HTML, CSS, JS </li>
-                </div>
-            </div>
-
-            <div id="VRDeveloper" class="job">
-                <p class="workTitle">VR Developer | Teaching Learning Lab</p>
-                <div class="workDescription">
-                    <li>Working as a VR developer at the Teaching Learning Lab at Stony Brook University. Responsibilities include improving educational VR games such as Towers of Hanoi and Tarski's Truth Game with the use of A-Frame, a VR framework. </li>
-                    <li>A-Frame VR, HTML, CSS, JS </li>
-                </div>
-            </div>
-            <div id="TAC" class="job">
-                <p class="workTitle">Teen Advisory Council | ArtsConnection</p>
-                <div class="workDescription">
-                    <p>Worked to promote teen arts events and programs for non-profit ArtsConnection. Involved social media takeover, creating workshop and activities, promoting in schools, as well as organizing large events before and on event day</p>
-                    <li> Marketing, Leadership, Idea Management, Event Organization</li>
-                </div>
-            </div>
-        </div>
+    <!--
+    <section id="experience" class="first">
+        
     </section>
+-->
 
     <!--
     <section id="about">
@@ -423,11 +485,12 @@
 -->
 
     <link href="https://fonts.googleapis.com/css?family=Gravitas+One|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <script src="JS/script.js"></script>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!--    <script type="text/javascript" src="slick/slick.min.js"></script>-->
+    <!--    <script type="text/javascript" src="slick/slick.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
