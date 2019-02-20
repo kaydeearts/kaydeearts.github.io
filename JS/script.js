@@ -2,6 +2,19 @@
 //  $( "span" ).css( "display", "inline" ).fadeOut( "slow" );
 //    console.log("scroll!");
 //});
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function () {
+    myFunction()
+};
+
+function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+}
+
 var growWorkBox = true;
 var sloganGone = false;
 $(window).bind('scroll', function () {
@@ -23,6 +36,10 @@ $(window).bind('scroll', function () {
 
     if ($(window).scrollTop() > 450) {
 
+        $('#projects_menu').animate({
+            opacity: 1,
+        });
+
         //        $('#technicalProjectsSub').css("opacity", $(window).scrollTop() /1000);
         $('#technicalProjectsSub').animate({
             color: "blue",
@@ -42,8 +59,8 @@ $(window).bind('scroll', function () {
         }, 1000);
         $(".box").animate({
             height: "130%",
-        }, 2000);        
-        
+        }, 2000);
+
         $("#artWorks").animate({
             width: "85%",
         }, 1000);
@@ -61,6 +78,15 @@ $(window).bind('scroll', function () {
         $("#artWorks").css("opacity", 1);
         $("#imgDesc").css("opacity", 1);
         $("#experienceInformation").css("opacity", 1);
+    }
+
+    if ($(window).scrollTop() > 2000) {
+//        $('#projects_menu').animate({
+//            opacity: .5,
+//        });
+        $('#about_menu').animate({
+            opacity: 1,
+        });
     }
 
     if ($(window).scrollTop() < 20) {
