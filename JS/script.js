@@ -3,7 +3,8 @@
 //    console.log("scroll!");
 //});
 
-PDFObject.embed("KamileDemir_Portfolio.pdf", "#resume");
+PDFObject.embed("KamileDemir_Portfolio.pdf", "#portfolio");
+PDFObject.embed("KamileDemir_Resume2019.pdf", "#resume");
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function () {
     myFunction()
@@ -35,7 +36,7 @@ $(window).bind('scroll', function () {
         $('#introSlogan').css("opacity", 0);
     }
 
-    if ($(window).scrollTop() > 450) {
+    if ($(window).scrollTop() > 680) {
 
         $('#projects_menu').animate({
             opacity: 1,
