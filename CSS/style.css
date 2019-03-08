@@ -13,6 +13,14 @@ html {
 
 /*----------------------------------------------------------------------------------------*/
 
+#resume{
+    width: 100%;
+    height: 80%;
+    margin-top: -20%;
+    margin-left: 0%;
+/*    background-color: aquamarine*/
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -108,6 +116,43 @@ html {
 
 }
 
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.modal-button:hover .workImage {
+    opacity: 0.1;
+}
+
+.modal-button:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    position: relative;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    top: 50%;
+    margin-left: 10%;
+
+}
 
 /*---------Splash--------*/
 
@@ -222,7 +267,7 @@ html {
     font-size: 2em
 }
 
-#clickProjectsSub{
+#clickProjectsSub {
     font-size: 1.3rem;
     color: black;
     text-align: right;
@@ -482,7 +527,7 @@ a {
 #home {
     height: 100%;
     /*    background-color: cadetblue;*/
-    /*    background-image: url('../earth.png');*/
+/*        background-image: url('../Media/veniceBird.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 30%;

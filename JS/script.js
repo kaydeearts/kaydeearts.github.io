@@ -3,6 +3,7 @@
 //    console.log("scroll!");
 //});
 
+PDFObject.embed("KamileDemir_Portfolio.pdf", "#resume");
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function () {
     myFunction()
@@ -67,6 +68,9 @@ $(window).bind('scroll', function () {
         $("#artWorks").animate({
             height: "70%",
         }, 2000);
+//        $("#workImage").css("opacity", 1);
+//        $('.workImage').mouseover(function(){
+//        }
         //        $("#designBox").animate({
         //            width: "30%",
         //        }, 1000);
@@ -87,6 +91,7 @@ $(window).bind('scroll', function () {
         $('#about_menu').animate({
             opacity: 1,
         });
+        
     }
 
     if ($(window).scrollTop() < 20) {
