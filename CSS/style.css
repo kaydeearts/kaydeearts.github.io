@@ -20,6 +20,13 @@ html {
     margin-left: 0%;
 /*    background-color: aquamarine*/
 }
+
+#loadText{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
 #resume{
     position: relative;
     width: 100%;
