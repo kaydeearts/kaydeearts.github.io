@@ -3,7 +3,7 @@
 //    console.log("scroll!");
 //});
 
-PDFObject.embed("KamileDemir_Portfolio.pdf", "#portfolio");
+PDFObject.embed("KamileDemir_GraphicDesign.pdf", "#portfolio");
 PDFObject.embed("KamileDemir_Resume2019.pdf", "#resume");
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function () {
