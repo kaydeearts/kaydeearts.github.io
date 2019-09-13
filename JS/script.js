@@ -3,9 +3,9 @@
 //    console.log("scroll!");
 //});
 
-PDFObject.embed("KamileDemir_GraphicDesign.pdf", "#portfolio");
-PDFObject.embed("KamileDemir_Resume2019.pdf", "#resume");
-// When the user scrolls the page, execute myFunction 
+PDFObject.embed("KayDeeArts_Portfolio_Fall2019.pdf", "#portfolio");
+// PDFObject.embed("KamileDemir_Resume2019.pdf", "#resume");
+// When the user scrolls the page, execute myFunction
 window.onscroll = function () {
     myFunction()
 };
@@ -25,26 +25,28 @@ $(window).bind('scroll', function () {
         $('#introMajor').css("opacity", .5 - $(window).scrollTop() / 10);
         $('#introSlogan').animate({
             color: "blue",
-            left: ".9%",
+            left: "40%",
         }, 1000);
     }
 
-    if ($(window).scrollTop() > 150) {
+    if ($(window).scrollTop() > 300) {
         $('#introSlogan').css("opacity", .5 - $(window).scrollTop() / 2);
     }
-    if ($(window).scrollTop() > 350) {
+    if ($(window).scrollTop() > 300) {
         $('#introSlogan').css("opacity", 0);
+        $('#projects_menu').animate({
+            opacity:1,
+        });
     }
 
-    if ($(window).scrollTop() > 680) {
+    if ($(window).scrollTop() > 1100) {
 
-        $('#projects_menu').animate({
+        $('#about_menu').animate({
             opacity: 1,
         });
 
         //        $('#technicalProjectsSub').css("opacity", $(window).scrollTop() /1000);
         $('#technicalProjectsSub').animate({
-            color: "blue",
             left: "80%",
             opacity: "1",
         }, 1000);
@@ -69,6 +71,7 @@ $(window).bind('scroll', function () {
         $("#artWorks").animate({
             height: "70%",
         }, 2000);
+        $("#Abo")
 //        $("#workImage").css("opacity", 1);
 //        $('.workImage').mouseover(function(){
 //        }
@@ -85,15 +88,15 @@ $(window).bind('scroll', function () {
         $("#experienceInformation").css("opacity", 1);
     }
 
-    if ($(window).scrollTop() > 2000) {
-//        $('#projects_menu').animate({
-//            opacity: .5,
+//    if ($(window).scrollTop() > 2000) {
+////        $('#projects_menu').animate({
+////            opacity: .5,
+////        });
+//        $('#about_menu').animate({
+//            opacity: 1,
 //        });
-        $('#about_menu').animate({
-            opacity: 1,
-        });
-        
-    }
+//
+//    }
 
     if ($(window).scrollTop() < 20) {
         $('#introName').css("opacity", 1);
