@@ -20,12 +20,12 @@ var controller;
 $(function () {
     //controller
     controller = new ScrollMagic.Controller();
-
+    
     //slide
     var tween = new TimelineMax().fromTo("#introSlogan", 1, {
         left: 0
     }, {
-        left: 555,
+        left: "40%",
     });
 
     var scene1 = new ScrollMagic.Scene({

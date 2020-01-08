@@ -40,8 +40,8 @@
         <div class="progress-container">
             <div class="progress-bar" id="myBar"></div>
         </div>
-        <a href="index.html">
-            <!--            <img src="Media/KayDeeArtsNewLogo.svg" width="60" height="60" alt="" id="home_menu" id="home_menu"/>-->
+        <a class="horizontalMenu" id="home_menu" href="index.html">
+            <img src="Assets/k-home.svg" width="30" height="30" alt="home" />
         </a>
 
         <a class="horizontalMenu" id="about_menu" href="#about-me">
@@ -61,7 +61,7 @@
             <div id="stars2"></div>
             <div id="stars3"></div>
             <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In  -->
-            <svg id="kamiledemir" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="390.8px" height="44.89px" viewBox="0 0 390.8 44.89" style="enable-background:new 0 0 390.8 44.89;" xml:space="preserve">
+            <svg id="kamiledemir" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30%" height="auto" viewBox="0 0 390.8 44.89" style="enable-background:new 0 0 390.8 44.89;" xml:space="preserve">
 <path class="st0" d="M12.7,5.24c2.93,0,4.95,1.37,6.07,4.11l4.97,12.55c0.19,0.15,0.5,0.23,0.93,0.23c0.27,0,0.48-0.09,0.64-0.26
 	c0.15-0.17,0.23-0.38,0.23-0.61c0-0.39-0.21-1.1-0.64-2.14L20.33,7.55c-0.19-0.5-0.29-0.89-0.29-1.16v-0.4
 	c0-0.31,0.06-0.51,0.17-0.61c0.12-0.1,0.31-0.14,0.58-0.14H37.1c1.5,0,2.25,0.64,2.25,1.91c0,0.42-0.22,1.01-0.66,1.76
@@ -168,11 +168,11 @@
             <div id='connect_logos_box'>
                 <!--                <p id="title-about-me">Publications</p>-->
                 <!-- LinkedIn, Email, Github -->
-                <a href="mailto: kamile.kaydee@gmail.com"> <img src="Assets/connect-logos/mail.png" alt="Github" id="connect_logos" href="mailto: kamile.kaydee@gmail.com"></a>
+                <a href="mailto: kamile.kaydee@gmail.com"> <img src="Assets/connect-logos/mail.svg" alt="Github" id="connect_logos" href="mailto: kamile.kaydee@gmail.com"></a>
                 <a href="https://www.linkedin.com/in/kamiledemirkaydeearts/"> <img src="Assets/connect-logos/linkedin.svg" alt="LinkedIn" id="connect_logos" > </a>
                 <a href="https://github.com/kaydeearts"> <img src="Assets/connect-logos/githubLogo.svg" alt="Github" id="connect_logos"> </a>
-                <a href="https://medium.com/@GirlsWhoCode/in-her-own-words-learn-from-those-around-you-d5d99216affa"> <img src="Assets/connect-logos/medium.png" alt="Medium Article" id="connect_logos" href="mailto: kamile.kaydee@gmail.com"></a>
-                <a href="https://www.refinery29.com/en-us/2019/10/8522553/more-females-in-tech-programming-march-for-sisterhood"> <img src="Assets/connect-logos/refinery29.png" alt="Refinery29 Article" id="connect_logos" ></a>
+                <a href="https://medium.com/@GirlsWhoCode/in-her-own-words-learn-from-those-around-you-d5d99216affa"> <img src="Assets/connect-logos/Medium.svg" alt="Medium Article" id="connect_logos" href="mailto: kamile.kaydee@gmail.com"></a>
+                <a href="https://www.refinery29.com/en-us/2019/10/8522553/more-females-in-tech-programming-march-for-sisterhood"> <img src="Assets/connect-logos/refinery29.svg" alt="Refinery29 Article" id="connect_logos" ></a>
             </div>
 
             <div id="fun-facts-about-me">
@@ -193,7 +193,6 @@
                 <div id="fun-about-me-facts">
                     <p id="text-about-me-facts-white">Next Trip:</p>
                     <li id="text-about-me-facts">Tokyo & Kyoto, Japan (in January!)</li>
-                    <br>
                     <br>
                     <br>
                 </div>
@@ -231,7 +230,6 @@
                 <li id="text-about-me-facts">Autodesk Maya</li>
                 <li id="text-about-me-facts">Adobe Suite</li>
                 <li id="text-about-me-facts">Acrylic Painting</li>
-                <br>
             </div>
         </div>
     </div>
@@ -241,127 +239,137 @@
         <div class="slideshow-container">
             <!--Panel 1-->
             <div class="mySlides">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <p id="project-title">Bourse Exchange Server</p>
-                <div id="project-image"> <img id="propic-about-me" src="Assets/technical/bourse-image.PNG" alt="Profile Pic" id="profilePic" height="400"></div>
-                <div id="project-description">
-                    <li id="text-project"> The Bourse Exchange Server is an implementation of an exchange server used to perform electronic trading of securities or currencies. </li>
-                    <br>
-                    <li id="text-project"> The server is accessed concurrently by a collection of traders, who buy and sell units of one particular item. </li>
-                    <br>
-                    <li id="text-project"> Assignment implemented for Systems Architecture II and received one of highest scores in class.</li>
-                </div>
-                <div id="project-specification">
-                    <p id="text-project"> Implemented in C</p>
-                    <li id="text-project">Socket programming, thread execution, locks, and semaphores, POSIX threadsconcurrent data structures</li>
-                    <br>
-                    <p id="text-project"> Linux, Virtual Box, Command Line, Git</p>
-                    <br>
+                <div class="slideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <p id="project-title">Bourse Exchange Server</p>
+                    <div id="project-image"> <img id="work-image" src="Assets/technical/bourse-image.PNG" alt="Profile Pic" id="profilePic" height="400"></div>
+                    <div id="project-description">
+                        <li id="text-project"> The Bourse Exchange Server is an implementation of an exchange server used to perform electronic trading of securities or currencies. </li>
+                        <br>
+                        <li id="text-project"> The server is accessed concurrently by a collection of traders, who buy and sell units of one particular item. </li>
+                        <br>
+                        <li id="text-project"> Assignment implemented for Systems Architecture II and received one of highest scores in class.</li>
+                    </div>
+                    <div id="project-specification">
+                        <p id="text-project"> Implemented in C</p>
+                        <li id="text-project">Socket programming, thread execution, locks, and semaphores, POSIX threadsconcurrent data structures</li>
+                        <br>
+                        <p id="text-project"> Linux, Virtual Box, Command Line, Git</p>
+                        <br>
+                    </div>
                 </div>
             </div>
             <!--Panel 2-->
             <div class="mySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <p id="project-title">3D Scene Viewer in OpenGL, C++</p>
-                <div id="project-image"> <img id="propic-about-me" src="Assets/technical/3D-only-blocks.gif" alt="Profile Pic" id="profilePic" height="400"></div>
-                <div id="project-description">
-                    <li id="text-project"> This 3D Scene Viewer is a simple 3D scene implementation I used to self-learn OpenGL.</li>
-                    <br>
-                    <li id="text-project">Implemented from scratch following online tutorials and courses. </li>
-                    <br>
-                    <p id="text-project">Added Features:</p>
-                    <li id="text-project">Asks the user how many shapes to generate</li>
-                    <li id="text-project">Generates shapes in random positions</li>
-                </div>
-                <div id="project-specification">
-                    <p id="text-project"> OpenGl</p>
-                    <li id="text-project">GLEW, GLFW, GLM</li>
-                    <li id="text-project">Reference citation: https://learnopengl.com/ </li>
-                    <p id="text-project">C++</p>
-                    <br>
+                <div class="slideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <p id="project-title">3D Scene Viewer in OpenGL, C++</p>
+                    <div id="project-image"> <img id="work-image" src="Assets/technical/3D-only-blocks.gif" alt="Profile Pic" id="profilePic" height="400"></div>
+                    <div id="project-description">
+                        <li id="text-project"> This 3D Scene Viewer is a simple 3D scene implementation I used to self-learn OpenGL.</li>
+                        <br>
+                        <li id="text-project">Implemented from scratch following online tutorials and courses. </li>
+                        <br>
+                        <p id="text-project">Added Features:</p>
+                        <li id="text-project">Asks the user how many shapes to generate</li>
+                        <li id="text-project">Generates shapes in random positions</li>
+                    </div>
+                    <div id="project-specification">
+                        <p id="text-project"> OpenGl</p>
+                        <li id="text-project">GLEW, GLFW, GLM</li>
+                        <li id="text-project">Reference citation: https://learnopengl.com/ </li>
+                        <p id="text-project">C++</p>
+                        <br>
+                    </div>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <p id="project-title">Rendering Literature Review</p>
-                <div id="project-image">
-                    <iframe src="https://drive.google.com/file/d/1VfAlzQY3v4wRxZFTAgl5gAGzlVCRkImC/preview" width="100%" height="100%"></iframe>
-                </div>
-                <div id="project-description">
-                    <li id="text-project">Wrote Literature Review on the continuing evolution of 3D Rendering to better understand various 3D graphics rendering effects</li>
-                    <br>
-                    <li id="text-project">Discussed Rendering techniques such as Forward Rasterization, Path Tracing, and Raytracing, as well as Pixar Animation Studio's Presto Background Scheduler (The Presto Execution System: Designing for Multithreading) </li>
-                </div>
-                <div id="project-specification">
-                    <p id="text-project">Some researched sources include:</p>
-                    <li id="text-project">UC SanDiegoX: CSE167x by Ravi Ramamoorthi </li>
-                    <li id="text-project">"The Presto Execution System: Designing for Multithreading" by George ElKoura(Multithreading for Visual Effects)</li>
-                    <li id="text-project">"The Path to Path-Traced Movies. Foundations and Trends R in Computer Graphics and Vision" by Per H. Christensen, Wojciech Jarosz.</li>
+                <div class="slideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <p id="project-title">Rendering Literature Review</p>
+                    <div id="project-image">
+                        <iframe src="https://drive.google.com/file/d/1VfAlzQY3v4wRxZFTAgl5gAGzlVCRkImC/preview" width="100%" height="100%"></iframe>
+                    </div>
+                    <div id="project-description">
+                        <li id="text-project">Wrote Literature Review on the continuing evolution of 3D Rendering to better understand various 3D graphics rendering effects</li>
+                        <br>
+                        <li id="text-project">Discussed Rendering techniques such as Forward Rasterization, Path Tracing, and Raytracing, as well as Pixar Animation Studio's Presto Background Scheduler (The Presto Execution System: Designing for Multithreading) </li>
+                    </div>
+                    <div id="project-specification">
+                        <p id="text-project">Some researched sources include:</p>
+                        <li id="text-project">UC SanDiegoX: CSE167x by Ravi Ramamoorthi </li>
+                        <li id="text-project">"The Presto Execution System: Designing for Multithreading" by George ElKoura(Multithreading for Visual Effects)</li>
+                        <li id="text-project">"The Path to Path-Traced Movies. Foundations and Trends R in Computer Graphics and Vision" by Per H. Christensen, Wojciech Jarosz.</li>
+                    </div>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                <p id="project-title">E-Commerce Stock Trading Database & Website</p>
-                <div id="project-image"> <img id="propic-about-me" src="Assets/technical/SAKS-1.PNG" alt="Profile Pic" id="profilePic" width="80%">
-                    <img id="propic-about-me" src="Assets/technical/SAKS-2.PNG" alt="Profile Pic" id="profilePic" width="80%">
-                    <img id="propic-about-me" src="Assets/technical/SAKS-3.PNG" alt="Profile Pic" id="profilePic" width="80%">
-                </div>
-                <div id="project-description">
-                    <p id="text-project"> SAKs Trading Post is an online stock-trading system that allows users to buy and sell stock, place orders on their investments, and make smart decisions with their money. This application comes with multi-level support for customers, customer representatives, and managers to use. Customer representatives in particular are responsible for managing customers, and managers are responsible for managing employees as well as stock-related interactions</p>
-                </div>
-                <div id="project-specification">
-                    <br>
-                    <p id="text-project">SQL</p>
-                    <p id="text-project">JDBC</p>
-                    <p id="text-project">JS</p>
+                <div class="slideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    <p id="project-title">E-Commerce Stock Trading Database & Website</p>
+                    <div id="project-image"> <img id="work-image" src="Assets/technical/SAKS-1.PNG" alt="Profile Pic" id="profilePic" width="80%">
+                        <img id="work-image" src="Assets/technical/SAKS-2.PNG" alt="Profile Pic" id="profilePic" width="80%">
+                        <img id="work-image" src="Assets/technical/SAKS-3.PNG" alt="Profile Pic" id="profilePic" width="80%">
+                    </div>
+                    <div id="project-description">
+                        <p id="text-project"> SAKs Trading Post is an online stock-trading system that allows users to buy and sell stock, place orders on their investments, and make smart decisions with their money. This application comes with multi-level support for customers, customer representatives, and managers to use. Customer representatives in particular are responsible for managing customers, and managers are responsible for managing employees as well as stock-related interactions</p>
+                    </div>
+                    <div id="project-specification">
+                        <br>
+                        <p id="text-project">SQL</p>
+                        <p id="text-project">JDBC</p>
+                        <p id="text-project">JS</p>
+                    </div>
                 </div>
             </div>
 
             <div class="mySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <div class="slideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-                <div id="other-projects">
-                    <p id="other-project-text">NYC Trees & Air Quality <br> Data Dashboard</p>
-                    <div id="other-projects-image">
-                        <img id="propic-about-me" src="Assets/technical/NYC-Dashboard.gif" alt="Mythonancial" width="100%">
+                    <div id="other-projects">
+                        <p id="other-project-text">NYC Trees & Air Quality <br> Data Dashboard</p>
+                        <div id="other-projects-image">
+                            <img id="work-image" src="Assets/technical/NYC-Dashboard.gif" alt="Mythonancial" width="100%">
+                        </div>
+                        <div id="other-projects-small-text">
+                            <li id="text-project">D3.JS API for JavaScript</li>
+                            <li id="text-project">HTML, CSS</li>
+                        </div>
                     </div>
-                    <div id="other-projects-small-text">
-                        <li id="text-project">D3.JS API for JavaScript</li>
-                        <li id="text-project">HTML, CSS</li>
+                    <div id="other-projects">
+                        <p id="other-project-text">Mythonancial <br> Webgame</p>
+                        <div id="other-projects-image">
+                            <img id="work-image" src="Assets/technical/Mythonancial.gif" alt="Mythonancial" width="100%">
+                        </div>
+                        <div id="other-projects-small-text">
+                            <li id="text-project">Mythonancial is a web game created to help college students learn about financial investments in an engaging way</li>
+                            <li id="text-project">Won 2nd place for Best Money Management Hack at Technica 2018, the world’s largest All-Women and Non-Binary hackathon, with more than 900+ participants</li>
+                            <li id="text-project">HTML, CSS, JS</li>
+                        </div>
                     </div>
-                </div>
-                <div id="other-projects">
-                    <p id="other-project-text">Mythonancial <br> Webgame</p>
-                    <div id="other-projects-image">
-                        <img id="propic-about-me" src="Assets/technical/Mythonancial.gif" alt="Mythonancial" width="100%">
-                    </div>
-                    <div id="other-projects-small-text">
-                        <li id="text-project">Mythonancial is a web game created to help college students learn about financial investments in an engaging way</li>
-                        <li id="text-project">Won 2nd place for Best Money Management Hack at Technica 2018, the world’s largest All-Women and Non-Binary hackathon, with more than 900+ participants</li>
-                        <li id="text-project">HTML, CSS, JS</li>
-                    </div>
-                </div>
-                <div id="other-projects">
-                    <p id="other-project-text">SoliloQuack <br> Speech-To-Text Web App</p>
-                    <div id="other-projects-image">
-                        <img id="propic-about-me" src="Assets/technical/SoliloQuack.PNG" alt="Mythonancial" width="100%">
-                    </div>
-                    <div id="other-projects-small-text">
-                        <li id="text-project">SoliloQuack is a web application powered by a Speech-To-Text API revolutionizing the way actors rehearse their lines.</li>
-                        <li id="text-project">Won 'Most Original Hack' at Hack@CEWIT.</li>
-                        <li id="text-project">HTML, CSS, JS</li>
+                    <div id="other-projects">
+                        <p id="other-project-text">SoliloQuack <br> Speech-To-Text Web App</p>
+                        <div id="other-projects-image">
+                            <img id="work-image" src="Assets/technical/SoliloQuack.PNG" alt="Mythonancial" width="100%">
+                        </div>
+                        <div id="other-projects-small-text">
+                            <li id="text-project">SoliloQuack is a web application powered by a Speech-To-Text API revolutionizing the way actors rehearse their lines.</li>
+                            <li id="text-project">Won 'Most Original Hack' at Hack@CEWIT.</li>
+                            <li id="text-project">HTML, CSS, JS</li>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -405,14 +413,13 @@
             <br>
             <!--Panel 3-->
             <!-- The dots/circles -->
-        </div>
-
-        <div id="slide-dots">
-            <span class="dot" onclick="techSlide(1)"></span>
-            <span class="dot" onclick="techSlide(2)"></span>
-            <span class="dot" onclick="techSlide(3)"></span>
-            <span class="dot" onclick="techSlide(4)"></span>
-            <span class="dot" onclick="techSlide(5)"></span>
+            <div id="slide-dots">
+                <span class="dot" onclick="techSlide(1)"></span>
+                <span class="dot" onclick="techSlide(2)"></span>
+                <span class="dot" onclick="techSlide(3)"></span>
+                <span class="dot" onclick="techSlide(4)"></span>
+                <span class="dot" onclick="techSlide(5)"></span>
+            </div>
         </div>
     </div>
     <!--DESIGN WORK-->
@@ -422,72 +429,83 @@
         <div class="slideshow-container">
             <!--Panel 1-->
             <div class="designMySlides">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
-                <p id="project-title">Girls Who Code - Alumni Team Designs</p>
-                <div id="project-image"> <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTIrKai1QmtQZ9-sxZItCoVoH36e5fdu52VcmSmJpRqLf9KRXEjJcZFLlKPXwhAkbydMSRy1rjECOdd/embed?start=false&loop=false&delayms=3000" frameborder="0" width="84%" height="90%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-                <div id="project-description">
-                    <br>
-                    <li id="text-project">Girls Who Code is an international nonprofit dedicated to closing the gender gap in the tech industry</li>
-                    <br>
-                    <li id="text-project">At the Girls Who Code Alumni Team, we focus on helping more than 30,000 alumni thrive within the tech field through various programs</li>
-                </div>
-                <div id="project-specification">
-                    <br>
-                    <li id="text-project">As intern I've designed several assets for official-organization use for programs such as:</li>
-                    <li id="text-project">College Loops</li>
-                    <li id="text-project">The Grace Hopper Celebration GWC Booth</li>
-                    <li id="text-project">Virtual Mentorship</li>
-                    <li id="text-project">#HireMe</li>
-                    <br>
+                <div class="designSlideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
+                    <p id="project-title">Girls Who Code - Alumni Team Designs</p>
+                    <div id="work-image">
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTIrKai1QmtQZ9-sxZItCoVoH36e5fdu52VcmSmJpRqLf9KRXEjJcZFLlKPXwhAkbydMSRy1rjECOdd/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </div>
+                    <div id="project-description">
+                        <br>
+                        <li id="text-project">Girls Who Code is an international nonprofit dedicated to closing the gender gap in the tech industry</li>
+                        <br>
+                        <li id="text-project">At the Girls Who Code Alumni Team, we focus on helping more than 30,000 alumni thrive within the tech field through various programs</li>
+                    </div>
+                    <div id="project-specification">
+                        <br>
+                        <li id="text-project">As intern I've designed several assets for official-organization use for programs such as:</li>
+                        <li id="text-project">College Loops</li>
+                        <li id="text-project">The Grace Hopper Celebration GWC Booth</li>
+                        <li id="text-project">Virtual Mentorship</li>
+                        <li id="text-project">#HireMe</li>
+                        <br>
+                    </div>
                 </div>
             </div>
             <!--Panel 2-->
             <div class="designMySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
-                <p id="project-title">Study Abroad Design Internship</p>
-                <div id="project-image"> <iframe src="https://drive.google.com/file/d/1QWkTSGTYkbhqccAqQ_kw-pfJnp1f4z9l/preview" width="90%" height="90%"></iframe> </div>
-                <div id="project-description">
-                    <li id="text-project">January 2019, I studied/interned abroad in Florence, Italy for 2 weeks.</li>
-                    <li id="text-project">The main task was to design a complete asset system for Florence University of the Art's annual conference surrounding Italian culture.</li>
-                    <li id="text-project">I designed these items after taking solo-trips around the Tuscany area and researching about conference content</li>
-                    <li id="text-project">The 2019 conference was about Caterina de Medici.</li>
-                    <br>
-                    <li id="text-project">Adobe Illustrator & InDesign</li>
+                <div class="designSlideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
+                    <p id="project-title">Study Abroad Design Internship</p>
+                    <div id="project-image">
+                        <iframe src="https://drive.google.com/file/d/1QWkTSGTYkbhqccAqQ_kw-pfJnp1f4z9l/preview" width="700" height="400"></iframe>
+                    </div>
+                    <div id="project-description">
+                        <li id="text-project">January 2019, I studied/interned abroad in Florence, Italy for 2 weeks.</li>
+                        <li id="text-project">The main task was to design a complete asset system for Florence University of the Art's annual conference surrounding Italian culture.</li>
+                        <li id="text-project">I designed these items after taking solo-trips around the Tuscany area and researching about conference content</li>
+                        <li id="text-project">The 2019 conference was about Caterina de Medici.</li>
+                        <br>
+                        <li id="text-project">Adobe Illustrator & InDesign</li>
+                    </div>
                 </div>
             </div>
 
             <div class="designMySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
-                <p id="project-title">CEAS Communications for the Dean's Office</p>
-                <div id="project-image">
-                    <img id="propic-about-me" src="Assets/designs/CEAS_2019_Overview.gif" alt="CEAS" width="100%">
+                <div class="designSlideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
+                    <p id="project-title">CEAS Communications for the Dean's Office</p>
+                    <div id="project-image">
+                        <img id="work-image" src="Assets/designs/CEAS_2019_Overview.gif" alt="CEAS" width="100%">
+                    </div>
+                    <div id="CEAS-video">
+                        <iframe width="640" height="480" src="https://www.youtube.com/embed/xV2UJs5pO3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
-                <div id="CEAS-video">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/xV2UJs5pO3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
             </div>
 
             <div class="designMySlides fade">
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
-                <p id="project-title">SBUHacks 2018 Asset System</p>
-                <div id="project-image">
-                    <iframe src="https://drive.google.com/file/d/1rOCSb8tWlhUzmshQ67a0Ag31j4UtrikE/preview" width="100%" height="100%"></iframe>
-                </div>
-                <div id="project-description">
-                    <li id="text-project">I co-founded SBUHacks 2018, Stony Brook University’s first ever on-campus hackathon</li>
-                    <li id="text-project">With 350+ students, 13 company sponsors, 24 hours, 9 prize categories, 9 workshops, and a ton of swag, made this a hackathon that Stony Brook University will support for years to come.</li>
-                    <li id="text-project">As co-founder and head designer, I was responsible designing all assets of the theme and look of the hackathon.</li>
-                    <br>
-                    <li id="text-project">Adobe Illustrator</li>
+                <div class="designSlideContent">
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="designPlusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="designPlusSlides(1)">&#10095;</a>
+                    <p id="project-title">SBUHacks 2018 Asset System</p>
+                    <div id="work-image">
+                        <iframe src="https://drive.google.com/file/d/1rOCSb8tWlhUzmshQ67a0Ag31j4UtrikE/preview" width="900" height="480"></iframe>
+                    </div>
+                    <div id="project-description">
+                        <li id="text-project">I co-founded SBUHacks 2018, Stony Brook University’s first ever on-campus hackathon</li>
+                        <li id="text-project">With 350+ students, 13 company sponsors, 24 hours, 9 prize categories, 9 workshops, and a ton of swag, made this a hackathon that Stony Brook University will support for years to come.</li>
+                        <li id="text-project">As co-founder and head designer, I was responsible designing all assets of the theme and look of the hackathon.</li>
+                        <br>
+                        <li id="text-project">Adobe Illustrator</li>
+                    </div>
                 </div>
             </div>
             <br>
@@ -535,6 +553,7 @@
             designDots[designSlideIndex - 1].className += " active";
         }
     </script>
+    </s
     <script type="text/javascript" src="APIs/scroll-magic/assets/js/tracking.js"></script>
 </body>
 
