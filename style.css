@@ -7,14 +7,15 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     background: linear-gradient(90deg, #1b2735 0%, #090a0f 100%);
+    
 }
 
-@media screen and (max-width: 800px) {
-    /*The following CSS runs only for displays with a width (in pixels) of less than 800px*/
-    body {
-        background-color: yellow;
-    }
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
 }
+
 
 .section-title {
     font-size: 2vw;
@@ -74,28 +75,29 @@ body {
 
 
 #home_menu {
-    left:10%;
+    left: 15%;
     margin-top: 1%;
     color: white;
+        opacity: .5;
 }
 
 #about_menu {
     opacity: .5;
-    left: 25%;
+    left: 35%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
 #technical_menu {
     opacity: .5;
-    left: 50%;
+    left: 60%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
 
 #design_menu {
     opacity: .5;
-    left: 75%;
+    left: 80%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
 }
