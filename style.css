@@ -14,24 +14,24 @@ body {
     body {
         background-color: blue;
         height: 50%;
-        width:100%;
+        width: 100%;
+/*        overflow-x: hidden;*/
+    }
+
+    html {
+        overflow-x: hidden;
     }
     .section {
         height: 50%;
         margin-bottom: 20%;
     }
 
-    #iframe {
-        width=200px;
-        height=100px;
-    }
-    
-    .dot{
+    .dot {
         width: 5px;
         height: 5px;
     }
-    
-    .designDot{
+
+    .designDot {
         width: 5px;
         height: 5px;
     }
@@ -736,9 +736,9 @@ body {
     margin-right: 5%;
     border-radius: 25px;
     border: 2px solid #f4dcd6;
-    margin-top:2%;
-    margin-bottom:2%;
-    padding:1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
 }
 
 #project-specification {
