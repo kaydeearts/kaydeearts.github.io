@@ -6,15 +6,38 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background: linear-gradient(90deg, #1b2735 0%, #090a0f 100%);
-    
+    background: black;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    background-color: black;
-  }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+        height: 50%;
+        width:100%;
+    }
+    .section {
+        height: 50%;
+        margin-bottom: 20%;
+    }
+
+    #iframe {
+        width=200px;
+        height=100px;
+    }
+    
+    .dot{
+        width: 5px;
+        height: 5px;
+    }
+    
+    .designDot{
+        width: 5px;
+        height: 5px;
+    }
 }
+
+
 
 
 .section-title {
@@ -78,7 +101,9 @@ body {
     left: 15%;
     margin-top: 1%;
     color: white;
-        opacity: .5;
+    opacity: .5;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .9vw;
 }
 
 #about_menu {
@@ -86,6 +111,7 @@ body {
     left: 35%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
+    font-size: .9vw;
 }
 
 #technical_menu {
@@ -93,6 +119,7 @@ body {
     left: 60%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
+    font-size: .9vw;
 }
 
 #design_menu {
@@ -100,6 +127,7 @@ body {
     left: 80%;
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
+    font-size: .9vw;
 }
 
 /* Home Page Text*/
@@ -272,18 +300,60 @@ body {
     float: left;
     max-width: 90%;
     height: auto;
+    position: relative;
 }
 
-#about-me{
-    padding-top:1%;
+.iframe {
+    position: relative;
+    padding-bottom: 25%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+    /*    left: 30%;*/
+    /*    background:red;*/
+    /*    right: 50%;*/
 }
 
-#technical-work{
-     padding-top:1%;
+.iframe-tech {
+    position: relative;
+    padding-bottom: 20%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+    /*    left: 30%;*/
+    /*    background:red;*/
+    /*    right: 50%;*/
 }
 
-#design-work{
-     padding-top:1%;
+
+.iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    /*    background:blue;*/
+}
+
+.iframe-tech iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 100%;
+    /*    background:blue;*/
+}
+
+#about-me {
+    padding-top: 1%;
+}
+
+#technical-work {
+    padding-top: 1%;
+}
+
+#design-work {
+    padding-top: 1%;
 }
 
 #bio-about-me {
@@ -505,11 +575,11 @@ body {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 90%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: yellow;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -621,7 +691,7 @@ body {
 }
 
 #designSlideDots {
-    margin-top: 35%;
+    margin-top: 45%;
     text-align: center;
 }
 
@@ -658,6 +728,17 @@ body {
     margin-bottom: 1%;
     margin-right: 7%;
     padding: 1%;
+}
+
+#design-description {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    border: 2px solid #f4dcd6;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding:1%;
 }
 
 #project-specification {

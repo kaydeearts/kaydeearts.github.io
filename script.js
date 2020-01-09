@@ -20,7 +20,7 @@ var controller;
 $(function () {
     //controller
     controller = new ScrollMagic.Controller();
-    
+
     //slide
     var tween = new TimelineMax().fromTo("#introSlogan", 1, {
         left: 0
@@ -39,8 +39,12 @@ $(function () {
         background: "linear-gradient(90deg, #4b6cb7 0%, #182848 100%)"
     });
 
+
+
+
     var scene2 = new ScrollMagic.Scene({
             triggerElement: '#technical-work-title'
         })
         .setTween(tween2).addTo(controller);
+
 });
