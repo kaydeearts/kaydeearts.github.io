@@ -21,9 +21,13 @@ body {
     html {
         overflow-x: hidden;
     }
-    .section {
-        height: 50%;
-        margin-bottom: 20%;
+    
+    .slideshow-container {
+        
+    }
+    
+    .slideContent{
+        width: 80%;
     }
 
     .dot {
@@ -515,8 +519,8 @@ body {
 /* Slideshow container */
 
 .slideshow-container {
-    width: 100%;
-    max-height: 100%;
+    width: 200px;
+    max-height: 200px;
     /*    background: white;*/
     /*    position: absolute;*/
 }
