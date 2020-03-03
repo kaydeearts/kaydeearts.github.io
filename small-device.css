@@ -238,8 +238,8 @@
 
     #project-description {
         float: left;
-/*        margin-left: 5%;*/
-/*        margin-right: 5%;*/
+        /*        margin-left: 5%;*/
+        /*        margin-right: 5%;*/
         width: 100%;
         border-radius: 25px;
         border: 2px solid #f4dcd6;
@@ -258,8 +258,8 @@
         margin-bottom: 2%;
         padding: 1%;
     }
-    
-    #design-work-title{
+
+    #design-work-title {
         margin-top: 60%;
     }
 
@@ -293,6 +293,8 @@
     }
 
     .slideshow-container {
+        width: 300px;
+/*        max-height: 200px;*/
         margin: 1%;
     }
 
@@ -306,23 +308,23 @@
         /*    margin-right: 1%;*/
         align-content: center;
         padding-bottom: 2%;
-/*        margin: 1%;*/
+        /*        margin: 1%;*/
     }
-    
+
     #work-image {
-    align-content: center;
-    margin-right: 2%;
-    margin-left: 2%;
-    /*    margin-top: 2%;*/
-    /*    background: white;*/
-    float: left;
-    max-width: 150%;
-    height: auto;
-    position: relative;
-}
-    
-    .designSlideContent{
-/*        margin-top: 50%*/
+        align-content: center;
+        margin-right: 2%;
+        margin-left: 2%;
+        /*    margin-top: 2%;*/
+        /*    background: white;*/
+        float: left;
+        max-width: 150%;
+        height: auto;
+        position: relative;
+    }
+
+    .designSlideContent {
+        /*        margin-top: 50%*/
         width: 90%;
     }
     .dot {
