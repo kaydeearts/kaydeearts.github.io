@@ -17,46 +17,6 @@ html {
 }
 
 
-@media only screen and (max-width: 600px) {
-
-    body,
-    html {
-        height: auto;
-    }
-    body {
-        background-color: blue;
-        /*        height: 50%;*/
-        width: 100%;
-        overflow-x: hidden;
-    }
-    
-    #technical-work{
-        margin-top: 5%;
-    }
-
-    html {
-        overflow-x: hidden;
-    }
-
-    .slideshow-container {}
-
-    .slideContent {
-        width: 80%;
-    }
-
-    .dot {
-        width: 5px;
-        height: 5px;
-    }
-
-    .designDot {
-        width: 5px;
-        height: 5px;
-    }
-}
-
-
-
 
 .section-title {
     font-size: 2vw;
@@ -171,6 +131,8 @@ html {
 #kamiledemir {
     position: relative;
     margin-top: 5%;
+    width: 30%;
+    height: auto;
 }
 
 #kamiledemir path:nth-child(1) {

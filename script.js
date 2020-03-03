@@ -22,6 +22,7 @@ $(function () {
     controller = new ScrollMagic.Controller();
 
     //slide
+  if ($(window).width() > 480) {
     var tween = new TimelineMax().fromTo("#introSlogan", 1, {
         left: 0
     }, {
@@ -32,6 +33,7 @@ $(function () {
             triggerElement: '#introSlogan'
         })
         .setTween(tween).addTo(controller);
+  }
 
     var tween2 = new TimelineMax().fromTo("body", 1, {
         background: "linear-gradient(90deg, #1b2735 0%, #090a0f 100%)"
