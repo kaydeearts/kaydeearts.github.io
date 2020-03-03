@@ -230,7 +230,6 @@ html {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
 #introSlogan {
     font-size: 1.3vw;
     color: white;
@@ -329,11 +328,12 @@ html {
 }
 
 #technical-work {
-    padding-top: 1%;
+    margin: 1%;
+    
 }
 
 #design-work {
-    padding-top: 1%;
+    margin: 1%;
 }
 
 #bio-about-me {
