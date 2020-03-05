@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!--    <meta name="viewport" content="width=500" />-->
+    <!--    <meta name="viewport" content="width=500" />-->
     <meta name="keywords" content="ScrollMagic, example, examples" />
     <meta name="author" content="Jan Paepke (www.janpaepke.de)" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -194,7 +194,7 @@
                     <li id="text-about-me-facts">Bodrum, Turkey (grew up in)</li>
                     <li id="text-about-me-facts">Italy (study abroad)</li>
                 </div>
-<!--
+                <!--
 
                 <div id="fun-about-me-facts">
                     <p id="text-about-me-facts-white">Next Trip:</p>
@@ -242,11 +242,11 @@
                     <p id="project-title">Bourse Exchange Server</p>
                     <div id="project-image"> <img id="work-image" src="Assets/technical/bourse-image.PNG" alt="Profile Pic" id="profilePic" height="400"></div>
                     <div id="project-description">
-                        <p id="text-project"> The Bourse Exchange Server is an implementation of an exchange server used to perform electronic trading of securities or currencies.The server is accessed concurrently by a collection of traders, who buy and sell units of one particular item.  Assignment implemented for Systems Architecture II and received one of highest scores in class. </p>
+                        <p id="text-project"> The Bourse Exchange Server is an implementation of an exchange server used to perform electronic trading of securities or currencies.The server is accessed concurrently by a collection of traders, who buy and sell units of one particular item. Assignment implemented for Systems Architecture II and received one of highest scores in class. </p>
                         <p id="text-project"> </p>
                         <p id="text-project"> Implemented in C</p>
                         <li id="text-project">Socket programming, thread execution, locks, and semaphores, POSIX threadsconcurrent data structures</li>
-                       
+
                         <p id="text-project"> Linux, Virtual Box, Command Line, Git</p>
                     </div>
                 </div>
@@ -355,56 +355,55 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
-                console.log(dots[1].className);
-                console.log("HELLO???");
-                dots[1].className += " active";
-
-                // Next/previous controls
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                // Thumbnail image controls
-                function techSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = slides.length;
-                    }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                }
-            </script>
-            <br>
-            <!--Panel 3-->
-            <!-- The dots/circles -->
         </div>
-        <div id="slide-dots">
-            <span class="dot" onclick="techSlide(1)"></span>
-            <span class="dot" onclick="techSlide(2)"></span>
-            <span class="dot" onclick="techSlide(3)"></span>
-            <span class="dot" onclick="techSlide(4)"></span>
-            <span class="dot" onclick="techSlide(5)"></span>
-        </div>
-    
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        console.log(dots[1].className);
+        console.log("HELLO???");
+        dots[1].className += " active";
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function techSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <!--Panel 3-->
+    <!-- The dots/circles -->
+    <div id="slide-dots">
+        <span class="dot" onclick="techSlide(1)"></span>
+        <span class="dot" onclick="techSlide(2)"></span>
+        <span class="dot" onclick="techSlide(3)"></span>
+        <span class="dot" onclick="techSlide(4)"></span>
+        <span class="dot" onclick="techSlide(5)"></span>
+    </div>
+
     <!--DESIGN WORK-->
     <div class="section" id="design-work">
         <p class="section-title" id="design-work-title">Design Work</p>
