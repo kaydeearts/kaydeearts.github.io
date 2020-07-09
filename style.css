@@ -7,13 +7,41 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background: black;
+    background: #f4dcd6;
     height: 100%;
 }
 
 body,
 html {
     height: 100%;
+}
+
+/*Redirection CSS*/
+#redirection-page{
+    margin-top: 10%;
+}
+
+#redirection-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+#LargeText {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#SmallText {
+    font-size: 1.3vw;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -267,7 +295,6 @@ html {
     float: left;
     max-width: 20%;
     height: auto;
-
 }
 
 #work-image {
@@ -329,7 +356,7 @@ html {
 
 #technical-work {
     margin: 1%;
-    
+
 }
 
 #design-work {
@@ -495,8 +522,8 @@ html {
 /* Slideshow container */
 
 .slideshow-container {
-    width: 200px;
-    max-height: 200px;
+/*    width: 200px;*/
+/*    max-height: 200px;*/
     /*    background: white;*/
     /*    position: absolute;*/
 }
@@ -507,12 +534,12 @@ html {
     border-radius: 25px;
     border: 2px solid white;
     max-height: 90%;
-    width: 99%;
-    position: absolute;
+/*    width: 99%;*/
+/*    position: absolute;*/
     /*    margin-left: -3%;*/
     /*    margin-right: 1%;*/
     align-content: center;
-    padding-bottom: 2%;
+    padding-bottom: 10% !important;
 }
 
 .designSlideContent {
@@ -531,15 +558,15 @@ html {
 
 
 .mySlides {
-    display: none;
+/*    display: none;*/
     /*
     background: black;
     border-radius: 25px;
     border: 2px solid white;
 */
     /*    max-height: 90%;*/
-    resize: both;
-    /*    position: relative;*/
+/*    resize: both;*/
+        position: relative;
     margin: 3%;
 }
 
@@ -701,15 +728,15 @@ html {
 }
 
 #project-description {
-    border-radius: 25px;
-    border: 2px solid #f4dcd6;
-    float: right;
-    width: 35%;
-    max-height: 40%;
-    position: relative;
-    margin-bottom: 1%;
-    margin-right: 7%;
-    padding: 1%;
+/*        float: left;*/
+        /*        margin-left: 5%;*/
+        /*        margin-right: 5%;*/
+        width: 100%;
+/*        border-radius: 25px;*/
+/*        border: 2px solid #f4dcd6;*/
+/*        margin-top: 2%;*/
+/*        margin-bottom: 2%;*/
+        padding: 1%;
 }
 
 #design-description {
@@ -732,8 +759,8 @@ html {
     position: relative;
     margin-bottom: 1%;
     margin-right: 7%;
-    border-radius: 25px;
-    border: 2px solid #f4dcd6;
+/*    border-radius: 25px;*/
+/*    border: 2px solid #f4dcd6;*/
 }
 
 #CEAS-video {

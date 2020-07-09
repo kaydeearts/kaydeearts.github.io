@@ -14,6 +14,8 @@ function myFunction() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+
 var controller;
 
 // Home Page Animations ---------------------------------------------------------------------------
@@ -40,9 +42,6 @@ $(function () {
     }, {
         background: "linear-gradient(90deg, #4b6cb7 0%, #182848 100%)"
     });
-
-
-
 
     var scene2 = new ScrollMagic.Scene({
             triggerElement: '#technical-work-title'
